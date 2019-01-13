@@ -1,0 +1,130 @@
+/* HEADER */
+.header{
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid;
+    position: fixed;
+    background-color: white;
+  }
+  .header_nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .header_logo{
+    margin: 0;
+    padding: 0 40px;
+    font-size: 30px;
+  }
+  .header_search{
+    height: 30px;
+    width: 350px;
+    background-color: #3B2F2F;
+    border-radius: 30px;
+  }
+  .header_search_space{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding: 0 10px;
+  }
+  .header_search_input{
+    border: 0;
+    background-color: #3B2F2F;
+    width: 300px;
+    outline: none;
+    color: white;
+  }
+  .header_search_btn{
+    height: 25px;
+    width: 25px;
+    border: 0;
+    background-color: #3B2F2F;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+  }
+  .search_icon{
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    background-color: wheat;
+    top: 2px;
+    left: 4px;
+    position: relative;
+  }
+  .icon_black{
+    width: 9px;
+    height: 9px;
+    border-radius: 9px;
+    background-color: #3B2F2F;
+    top: 2px;
+    left: 2px;
+    position: relative;
+  }
+  .icon_stick{
+    height: 10px;
+    width: 2.5px;
+    background-color: wheat;
+    border-radius: 3px;
+    transform: rotate(-30deg);
+    left: 14px;
+    position: relative;
+  }
+  .space{
+    flex: 1;
+  }
+  .user_info{
+    padding: 0 40px;
+  }
+  .user_log_reg{
+    outline: none;
+    color: blueviolet;
+    font-size: 15px;
+  }
+  .user_btn{
+    height: 18px;
+    outline: none;
+    width: 125px;
+    background-color: #3B2F2F;
+    display: flex;
+    /* cursor: pointer; */
+  }
+  .user_btn p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    padding: 0 10px;
+  }
+  .icon_down_arrow{
+    margin-top: 4px;
+  }
+  .icon_down_arrow_1{
+    background-color: white;
+    height: 9px;
+    width: 9px;
+    transform: rotate(45deg);
+  }
+  .icon_down_arrow_2{
+    background-color: #3B2F2F;
+    height: 7px;
+    width: 7px;
+  }
+  .user_content{
+    display: none;
+    position: absolute;
+    border: 1px solid #3B2F2F;
+  }
+  .user_content a{
+    display: block;
+    background-color: aquamarine;
+    font-size: 15px;
+    width: 123px;
+  }
+  .user_btn:hover .user_content{
+    display: block;
+  }
+  
