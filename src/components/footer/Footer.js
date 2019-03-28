@@ -6,8 +6,7 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <h2>
-
-        ABCC Bisb asiugha Oias aisu oiua NMA aksj BAo ash
+          Thank You
         </h2>
       </footer>
     );
